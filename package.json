@@ -1,0 +1,17 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "A web application project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run start",
+    "start": "node server.js",
+    "build": "echo 'Build script placeholder'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [],
+  "author": "Utsab Ghoshal",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
