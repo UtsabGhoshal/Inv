@@ -42,7 +42,17 @@
       </div>
 
       <div class="actions">
+        <button onclick="saveInvoice()" class="save-btn">💾 Save Invoice</button>
+        <button onclick="showSavedInvoices()" class="load-btn">📋 Load Invoice</button>
         <button onclick="printInvoice()" class="print-btn">🖨️ Print</button>
+      </div>
+
+      <div id="savedInvoicesModal" class="modal" style="display: none;">
+        <div class="modal-content">
+          <span class="close" onclick="closeSavedInvoicesModal()">&times;</span>
+          <h2>Saved Invoices</h2>
+          <div id="savedInvoicesList"></div>
+        </div>
       </div>
     </section>
   </div>
